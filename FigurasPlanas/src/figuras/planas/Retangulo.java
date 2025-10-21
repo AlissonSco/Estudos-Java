@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Retangulo {
 	Scanner sc = new Scanner(System.in);
 	
-	public double base_retangulo;
-	public double altura_retangulo;
-	public double area_retangulo;
+	private double base_retangulo;
+	private double altura_retangulo;
+	private double area_retangulo;
 	
 	public void recebeAltura() {
 		System.out.println("Digite o valor da altura do retangulo:");
@@ -33,3 +33,4 @@ public class Retangulo {
 		System.out.println("A área do retangulo é " +area_retangulo);
 	}
 }
+
