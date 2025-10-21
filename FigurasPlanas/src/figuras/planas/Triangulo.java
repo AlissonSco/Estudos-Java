@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Triangulo {
 	Scanner sc = new Scanner(System.in);
 	
-	public double base_triangulo;
-	public double altura_triangulo;
-	public double area_triangulo;
+	private double base_triangulo;
+	private double altura_triangulo;
+	private double area_triangulo;
 	
 	public void recebeAltura() {
 		System.out.println("Digite o valor da altura do triângulo:");
@@ -34,3 +34,4 @@ public class Triangulo {
 	}
 
 }
+
