@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Paralelogramo {
 	Scanner sc = new Scanner(System.in);
 	
-	public double base_paralelogramo;
-	public double altura_paralelogramo;
-	public double area_paralelogramo;
+	private double base_paralelogramo;
+	private double altura_paralelogramo;
+	private double area_paralelogramo;
 	
 	public void recebeAltura() {
 		System.out.println("Digite o valor da altura do paralelogramo:");
@@ -32,3 +32,4 @@ public class Paralelogramo {
 		System.out.println("A área do paralelogramo é " +area_paralelogramo);
 	}
 }
+
