@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Circulo {
 	Scanner sc = new Scanner(System.in);
 	
-	public double raio_circulo;
-	public double area_circulo;
+	private double raio_circulo;
+	private double area_circulo;
 	
 	public void recebeRaio() {
 		System.out.println("Digite o valor do raio do circulo:");
@@ -22,3 +22,4 @@ public class Circulo {
 		System.out.println("A área do circulo  é : " +area_circulo);
 	}
 }
+
