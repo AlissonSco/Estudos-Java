@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Trapezio {
 	Scanner sc = new Scanner(System.in);
 	
-	public double lado_maior_trapezio;
-	public double lado_menor_trapezio;
-	public double altura_trapezio;
-	public double area_trapezio;
+	private double lado_maior_trapezio;
+	private double lado_menor_trapezio;
+	private double altura_trapezio;
+	private double area_trapezio;
 
 	public void recebeAltura() {
 		System.out.println("Digite o valor da altura do trapezio:");
@@ -42,3 +42,4 @@ public class Trapezio {
 		System.out.println("A área do trapezio é: " +area_trapezio);
 	}
 }
+
