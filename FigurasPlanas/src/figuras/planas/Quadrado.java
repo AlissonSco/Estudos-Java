@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Quadrado {
 	Scanner sc = new Scanner(System.in);
 	
-	public double lado_quadrado;
-	public double area_quadrado;
+	private double lado_quadrado;
+	private double area_quadrado;
 	
 	public void recebeLado() {
 		System.out.println("Digite o valor do lado do quadrado:");
@@ -22,3 +22,4 @@ public class Quadrado {
 		System.out.println("A área do quadrado é " +area_quadrado);
 	}
 }
+
